@@ -1,3 +1,80 @@
+.signin-title{
+  position: relative;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #12026b;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.form-group{
+  position: center;
+  margin: 10px;
+}
+
+.signup-form-wrap{
+  display: block;
+  text-align: center;
+}
+
+.signin-form{
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  width: 500px;
+}
+
+.signin-button{
+  border-radius: 4px;
+  background-color: rgba(99, 118, 194, 0.77);
+  border: none;
+  display: block;
+  position: relative;
+  left: 80%;
+}
+
+.footer-whole{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 50px 30px 15px;
+  background-color: rgba(99, 118, 194, 0.34);
+}
+
+.footer-logo{
+  width: 160px;
+}
+
+.footer-links a{
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 16px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-family: 'Noto Sans Buhid', sans-serif;
+}
+
+.social{
+  display: inline-block;
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -2583,7 +2660,7 @@
 }
 
 body {
-  font-family: Montserrat, sans-serif;
+  font-family: 'Noto Sans Buhid', sans-serif;
   color: #1a1b1f;
   font-size: 16px;
   line-height: 28px;
