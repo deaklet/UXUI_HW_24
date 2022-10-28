@@ -8,80 +8,112 @@
 <link href="css/webflow.css" rel="stylesheet" type="text/css">
 <link href="css/assitme.webflow.css" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+<script src="https://kit.fontawesome.com/2213df1bec.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--This is Stella-->
-    <header>
-        <section>
-            <div class="navbar-logo-left wf-section">
-                <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-main gradient-main w-nav">
-                  <div class="container-3">
-                    <div class="navbar-content">
-                      <a href="index.html" class="navbar-brand w-nav-brand"><img src="images/AssistMe-3.png" loading="lazy" width="105" srcset="images/AssistMe-3-p-500.png 500w, images/AssistMe-3.png 500w" sizes="105px" alt="logo" class="logo-lisiting"></a>
-                      <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
-                        <ul role="list" class="navbar-links w-list-unstyled">
-                          <li>
-                            <a href="listing-job.html" class="main-nav help-me">Help Me</a>
-                          </li>
-                          <li>
-                            <a href="volunteer.html" class="main-nav volunt">Volunteering</a>
-                          </li>
-                          <li>
-                            <a href="contact.html" class="main-nav">About Us</a>
-                          </li>
-                          <li class="part">
-                            <div class="nav-divider"></div>
-                          </li>
-                          <li class="mobile-margin-top-10">
-                            <a href="sign-in.html" class="user w-button">Log in</a>
-                            <a href="join-us.html" class="user w-button">Register</a>
-                          </li>
-                        </ul>
-                      </nav>
-                      <div class="menu-button-2 w-nav-button">
-                        <div class="w-icon-nav-menu"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-    <div class="vol-hero">
-        <img src="images/volunteer.jpeg">
+<header>
+  <section>
+    <div class="navbar-logo-left wf-section">
+      <div data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navbar-main gradient-main w-nav">
+        <div class="container-3">
+          <div class="navbar-content">
+            <a href="index.html" class="navbar-brand w-nav-brand"><img src="images/AssistMe-3.png" loading="lazy" width="105" srcset="images/AssistMe-3-p-500.png 500w, images/AssistMe-3.png 500w" sizes="105px" alt="logo" class="logo-lisiting"></a>
+            <nav role="navigation" class="nav-menu-wrapper w-nav-menu">
+              <ul role="list" class="navbar-links w-list-unstyled">
+                <li>
+                <a href="listing-job.html" class="main-nav help-me">Help Me</a>
+                </li>
+                <li>
+                <a href="volunteer.html" class="main-nav volunt">Volunteering</a>
+                </li>
+                <li>
+                <a href="contact.html" class="main-nav">About Us</a>
+                </li>
+                <li class="part">
+                <div class="nav-divider"></div>
+                </li>
+                <li class="mobile-margin-top-10">
+                  <a href="sign-in.html" class="user w-button">Log in</a>
+                  <a href="join-us.html" class="user w-button">Register</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="menu-button-2 w-nav-button">
+            <div class="w-icon-nav-menu"></div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
+</header>
+<div class="vol-hero">
+  <img src="images/volunteer.jpeg">
+</div>
               
     <div class="vol-heading">
         <h4>Volunteers</h4>
         <p>Awesome people helping others in need!</p>
     </div>
-    <button type="button" class="btn btn-primary vol-button" data-toggle="button" aria-pressed="false" autocomplete="off">
-        Single toggle
-      </button>    
+    <div class="vol-button">
+      <button type="button" class="btn btn-primary vol-button-v" data-toggle="button" aria-pressed="false" autocomplete="off">
+        Become a volunteer
+      </button>
+    </div>
 <div class="card-deck">
   <div class="card">
-    <img src="images/female4-p-500.webp" class="card-img-top" alt="femlae">
+    <img src="images/female2-p-800.webp" class="card-img-top vol-img" alt="female">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <div class="v-card-info">
+        <h5 class="card-title v-title">Ray</h5>
+          <div>
+            <i class="fa-sharp fa-solid fa-wrench"></i>
+            <i class="fa-solid fa-baby"></i>
+            <i class="fa-solid fa-box"></i>
+            <i class="fa-solid fa-car"></i>
+          </div>
+      </div>
+      <p class="card-text">Available: M T W T F S S</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
   <div class="card">
-    <img src="images/male2-p-500.webp" class="card-img-top" alt="male2">
+    <img src="images/male2-p-500.webp" class="card-img-top vol-img" alt="male2">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <div class="v-card-info">
+        <h5 class="card-title v-title">Kelly</h5>
+          <div>
+            <i class="fa-sharp fa-solid fa-wrench"></i>
+            <i class="fa-solid fa-baby"></i>
+            <i class="fa-solid fa-box"></i>
+            <i class="fa-solid fa-car"></i>
+          </div>
+      </div>
+      <p class="card-text">Available: M T W T F S S</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
   <div class="card">
-    <img src="images/female4-p-500.webp" class="card-img-top" alt="female4">
+    <img src="images/female4-p-500.webp" class="card-img-top vol-img" alt="female4">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <div class="v-card-info">
+        <h5 class="card-title v-title">Jennie</h5>
+          <div>
+            <i class="fa-sharp fa-solid fa-wrench"></i>
+            <i class="fa-solid fa-baby"></i>
+            <i class="fa-solid fa-box"></i>
+            <i class="fa-solid fa-car"></i>
+          </div>
+      </div>
+      <p class="card-text">Available: M T W T F S S</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
+</div>
+  <div class="vol-button vol-button-t">
+    <button type="button" class="btn btn-primary vol-button-b" data-toggle="button" aria-pressed="false" autocomplete="off">
+    View all volunteers
+  </button>
 </div>
     <div class="footer-whole">
         <div>
